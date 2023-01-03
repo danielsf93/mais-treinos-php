@@ -87,28 +87,74 @@ echo "\n" . "--------------------------------------------" . "\n";
 
 
 echo "\n" . "--------------------------------------------" . "\n";
-//<>
+//<> sinal de diferente
 
+ echo "funcao diferente" . "\n";
+     if (10 <> 11):
+        echo "positivo"; 
+    else:
+        echo "negativo";
+    endif;
+    echo "\n";
+        if (10 <> 10):
+        echo "positivo";
+    else:
+        echo "negativo";
+    endif;
 
 
 
 echo "\n" . "--------------------------------------------" . "\n";
 //< menor q
 
+ echo "funcao menor que" . "\n";
+     if (10 < 11):
+        echo "positivo"; 
+    else:
+        echo "negativo";
+    endif;
+    echo "\n";
+        if (10 < 8):
+        echo "positivo";
+    else:
+        echo "negativo";
+    endif;
 
 
 
 
 echo "\n" . "--------------------------------------------" . "\n";
 //> maior q
-
+ echo "funcao maior que" . "\n";
+     if (10 > 11):
+        echo "positivo"; 
+    else:
+        echo "negativo";
+    endif;
+    echo "\n";
+        if (10 > 8):
+        echo "positivo";
+    else:
+        echo "negativo";
+    endif;
 
 
 
 
 echo "\n" . "--------------------------------------------" . "\n";
 //<= menor ou igual
-
+ echo "funcao menor ou igual" . "\n";
+     if (10 <= 11):
+        echo "positivo"; 
+    else:
+        echo "negativo";
+    endif;
+    echo "\n";
+        if (10 <= 8):
+        echo "positivo";
+    else:
+        echo "negativo";
+    endif;
 
 
 
@@ -116,11 +162,28 @@ echo "\n" . "--------------------------------------------" . "\n";
 echo "\n" . "--------------------------------------------" . "\n";
 //>= maior ou igual
 
-
+ echo "funcao maior ou igual" . "\n"; 
+     if (10 >= 11):
+        echo "positivo"; 
+    else:
+        echo "negativo";
+    endif;
+    echo "\n";
+        if (10 >= 8):
+        echo "positivo";
+    else:
+        echo "negativo";
+    endif;
 
 
 echo "\n" . "--------------------------------------------" . "\n";
-//<=> 
+//<=> space cheap comparacao
+
+var_dump(20<=>30);
+echo "\n";
+var_dump(20<=>20);
+echo "\n";var_dump(30<=>20);
+echo "\n";
    
  
     
